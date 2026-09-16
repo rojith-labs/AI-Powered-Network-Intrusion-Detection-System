@@ -1,0 +1,336 @@
+{
+  "best_model": "XGBoost",
+  "metrics": {
+    "model_name": "XGBoost",
+    "accuracy": 0.9966666666666667,
+    "precision": 0.9966719542228017,
+    "recall": 0.9966666666666667,
+    "f1_score": 0.9966673308877919,
+    "roc_auc": 0.9999607991803127,
+    "confusion_matrix": [
+      [
+        906,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        85,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        153,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3,
+        175,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        117
+      ]
+    ]
+  },
+  "all_models": {
+    "Random Forest": {
+      "model_name": "Random Forest",
+      "accuracy": 0.996,
+      "precision": 0.9960188187608571,
+      "recall": 0.996,
+      "f1_score": 0.9960015210777923,
+      "roc_auc": 0.9999661218081847,
+      "confusion_matrix": [
+        [
+          906,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          59,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          85,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          153,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          4,
+          174,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          117
+        ]
+      ]
+    },
+    "XGBoost": {
+      "model_name": "XGBoost",
+      "accuracy": 0.9966666666666667,
+      "precision": 0.9966719542228017,
+      "recall": 0.9966666666666667,
+      "f1_score": 0.9966673308877919,
+      "roc_auc": 0.9999607991803127,
+      "confusion_matrix": [
+        [
+          906,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          59,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          85,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          153,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3,
+          175,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          117
+        ]
+      ]
+    },
+    "Logistic Regression": {
+      "model_name": "Logistic Regression",
+      "accuracy": 0.9873333333333333,
+      "precision": 0.9874563926458477,
+      "recall": 0.9873333333333333,
+      "f1_score": 0.9873011715517899,
+      "roc_auc": 0.9997782539003989,
+      "confusion_matrix": [
+        [
+          905,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          59,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          83,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          144,
+          11,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          4,
+          173,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          117
+        ]
+      ]
+    }
+  },
+  "feature_importances": [
+    {
+      "feature": "ack_flag_cnt",
+      "importance": 0.23620527982711792
+    },
+    {
+      "feature": "fwd_pkts_count",
+      "importance": 0.21344150602817535
+    },
+    {
+      "feature": "syn_flag_cnt",
+      "importance": 0.16980458796024323
+    },
+    {
+      "feature": "total_bytes",
+      "importance": 0.16191689670085907
+    },
+    {
+      "feature": "bwd_pkts_count",
+      "importance": 0.10422813147306442
+    },
+    {
+      "feature": "rst_flag_cnt",
+      "importance": 0.04938165098428726
+    },
+    {
+      "feature": "flow_duration",
+      "importance": 0.03912622109055519
+    },
+    {
+      "feature": "avg_pkt_size",
+      "importance": 0.012120763771235943
+    },
+    {
+      "feature": "destination_port",
+      "importance": 0.0053365761414170265
+    },
+    {
+      "feature": "bytes_per_sec",
+      "importance": 0.0019948144908994436
+    },
+    {
+      "feature": "packet_rate",
+      "importance": 0.0019899499602615833
+    },
+    {
+      "feature": "psh_flag_cnt",
+      "importance": 0.00152291776612401
+    },
+    {
+      "feature": "fin_flag_cnt",
+      "importance": 0.0011823042295873165
+    },
+    {
+      "feature": "min_pkt_size",
+      "importance": 0.0007939469651319087
+    },
+    {
+      "feature": "source_port",
+      "importance": 0.0006583409267477691
+    },
+    {
+      "feature": "flow_iat_mean",
+      "importance": 0.0002961079590022564
+    },
+    {
+      "feature": "max_pkt_size",
+      "importance": 0.0
+    },
+    {
+      "feature": "std_pkt_size",
+      "importance": 0.0
+    },
+    {
+      "feature": "fwd_pkt_len_mean",
+      "importance": 0.0
+    },
+    {
+      "feature": "fwd_pkt_len_std",
+      "importance": 0.0
+    },
+    {
+      "feature": "bwd_pkt_len_mean",
+      "importance": 0.0
+    },
+    {
+      "feature": "bwd_pkt_len_std",
+      "importance": 0.0
+    },
+    {
+      "feature": "protocol",
+      "importance": 0.0
+    },
+    {
+      "feature": "flow_iat_std",
+      "importance": 0.0
+    }
+  ],
+  "trained_at": "2026-09-16T05:41:24.010410+00:00"
+}
